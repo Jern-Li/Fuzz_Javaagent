@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Premain-Class:  agents.agent1
+Agent-Class: agents.agent3
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true

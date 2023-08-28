@@ -1,0 +1,747 @@
+Implementations of ActionType in  (304 usages found)
+    Unclassified  (304 usages found)
+        elasticsearch-7.5.2.client.client-benchmark-noop-api-plugin.main  (2 usages found)
+            org.elasticsearch.plugin.noop.action.bulk  (1 usage found)
+                NoopBulkAction.java  (1 usage found)
+                    24 public class NoopBulkAction extends ActionType<BulkResponse> {
+            org.elasticsearch.plugin.noop.action.search  (1 usage found)
+                NoopSearchAction.java  (1 usage found)
+                    24 public class NoopSearchAction extends ActionType<SearchResponse> {
+        elasticsearch-7.5.2.modules.ingest-common.main  (1 usage found)
+            org.elasticsearch.ingest.common  (1 usage found)
+                GrokProcessorGetAction.java  (1 usage found)
+                    47 public class GrokProcessorGetAction extends ActionType<GrokProcessorGetAction.Response> {
+        elasticsearch-7.5.2.modules.lang-mustache.main  (2 usages found)
+            org.elasticsearch.script.mustache  (2 usages found)
+                MultiSearchTemplateAction.java  (1 usage found)
+                    24 public class MultiSearchTemplateAction extends ActionType<MultiSearchTemplateResponse> {
+                SearchTemplateAction.java  (1 usage found)
+                    24 public class SearchTemplateAction extends ActionType<SearchTemplateResponse> {
+        elasticsearch-7.5.2.modules.lang-painless.main  (2 usages found)
+            org.elasticsearch.painless.action  (2 usages found)
+                PainlessContextAction.java  (1 usage found)
+                    66 public class PainlessContextAction extends ActionType<PainlessContextAction.Response> {
+                PainlessExecuteAction.java  (1 usage found)
+                    94 public class PainlessExecuteAction extends ActionType<PainlessExecuteAction.Response> {
+        elasticsearch-7.5.2.modules.rank-eval.main  (1 usage found)
+            org.elasticsearch.index.rankeval  (1 usage found)
+                RankEvalAction.java  (1 usage found)
+                    27 public class RankEvalAction extends ActionType<RankEvalResponse> {
+        elasticsearch-7.5.2.modules.reindex.main  (1 usage found)
+            org.elasticsearch.index.reindex  (1 usage found)
+                RethrottleAction.java  (1 usage found)
+                    25 public class RethrottleAction extends ActionType<ListTasksResponse> {
+        elasticsearch-7.5.2.server.main  (96 usages found)
+            org.elasticsearch.action.admin.cluster.allocation  (1 usage found)
+                ClusterAllocationExplainAction.java  (1 usage found)
+                    27 public class ClusterAllocationExplainAction extends ActionType<ClusterAllocationExplainResponse> {
+            org.elasticsearch.action.admin.cluster.configuration  (2 usages found)
+                AddVotingConfigExclusionsAction.java  (1 usage found)
+                    23 public class AddVotingConfigExclusionsAction extends ActionType<AddVotingConfigExclusionsResponse> {
+                ClearVotingConfigExclusionsAction.java  (1 usage found)
+                    23 public class ClearVotingConfigExclusionsAction extends ActionType<ClearVotingConfigExclusionsResponse> {
+            org.elasticsearch.action.admin.cluster.health  (1 usage found)
+                ClusterHealthAction.java  (1 usage found)
+                    24 public class ClusterHealthAction extends ActionType<ClusterHealthResponse> {
+            org.elasticsearch.action.admin.cluster.node.hotthreads  (1 usage found)
+                NodesHotThreadsAction.java  (1 usage found)
+                    24 public class NodesHotThreadsAction extends ActionType<NodesHotThreadsResponse> {
+            org.elasticsearch.action.admin.cluster.node.info  (1 usage found)
+                NodesInfoAction.java  (1 usage found)
+                    24 public class NodesInfoAction extends ActionType<NodesInfoResponse> {
+            org.elasticsearch.action.admin.cluster.node.reload  (1 usage found)
+                NodesReloadSecureSettingsAction.java  (1 usage found)
+                    24 public class NodesReloadSecureSettingsAction extends ActionType<NodesReloadSecureSettingsResponse> {
+            org.elasticsearch.action.admin.cluster.node.stats  (1 usage found)
+                NodesStatsAction.java  (1 usage found)
+                    24 public class NodesStatsAction extends ActionType<NodesStatsResponse> {
+            org.elasticsearch.action.admin.cluster.node.tasks.cancel  (1 usage found)
+                CancelTasksAction.java  (1 usage found)
+                    27 public class CancelTasksAction extends ActionType<CancelTasksResponse> {
+            org.elasticsearch.action.admin.cluster.node.tasks.get  (1 usage found)
+                GetTaskAction.java  (1 usage found)
+                    27 public class GetTaskAction extends ActionType<GetTaskResponse> {
+            org.elasticsearch.action.admin.cluster.node.tasks.list  (1 usage found)
+                ListTasksAction.java  (1 usage found)
+                    27 public class ListTasksAction extends ActionType<ListTasksResponse> {
+            org.elasticsearch.action.admin.cluster.node.usage  (1 usage found)
+                NodesUsageAction.java  (1 usage found)
+                    24 public class NodesUsageAction extends ActionType<NodesUsageResponse> {
+            org.elasticsearch.action.admin.cluster.remote  (1 usage found)
+                RemoteInfoAction.java  (1 usage found)
+                    24 public final class RemoteInfoAction extends ActionType<RemoteInfoResponse> {
+            org.elasticsearch.action.admin.cluster.repositories.cleanup  (1 usage found)
+                CleanupRepositoryAction.java  (1 usage found)
+                    23 public final class CleanupRepositoryAction extends ActionType<CleanupRepositoryResponse> {
+            org.elasticsearch.action.admin.cluster.repositories.delete  (1 usage found)
+                DeleteRepositoryAction.java  (1 usage found)
+                    28 public class DeleteRepositoryAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.cluster.repositories.get  (1 usage found)
+                GetRepositoriesAction.java  (1 usage found)
+                    27 public class GetRepositoriesAction extends ActionType<GetRepositoriesResponse> {
+            org.elasticsearch.action.admin.cluster.repositories.put  (1 usage found)
+                PutRepositoryAction.java  (1 usage found)
+                    28 public class PutRepositoryAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.cluster.repositories.verify  (1 usage found)
+                VerifyRepositoryAction.java  (1 usage found)
+                    27 public class VerifyRepositoryAction extends ActionType<VerifyRepositoryResponse> {
+            org.elasticsearch.action.admin.cluster.reroute  (1 usage found)
+                ClusterRerouteAction.java  (1 usage found)
+                    24 public class ClusterRerouteAction extends ActionType<ClusterRerouteResponse> {
+            org.elasticsearch.action.admin.cluster.settings  (1 usage found)
+                ClusterUpdateSettingsAction.java  (1 usage found)
+                    24 public class ClusterUpdateSettingsAction extends ActionType<ClusterUpdateSettingsResponse> {
+            org.elasticsearch.action.admin.cluster.shards  (1 usage found)
+                ClusterSearchShardsAction.java  (1 usage found)
+                    24 public class ClusterSearchShardsAction extends ActionType<ClusterSearchShardsResponse> {
+            org.elasticsearch.action.admin.cluster.snapshots.create  (1 usage found)
+                CreateSnapshotAction.java  (1 usage found)
+                    27 public class CreateSnapshotAction extends ActionType<CreateSnapshotResponse> {
+            org.elasticsearch.action.admin.cluster.snapshots.delete  (1 usage found)
+                DeleteSnapshotAction.java  (1 usage found)
+                    28 public class DeleteSnapshotAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.cluster.snapshots.get  (1 usage found)
+                GetSnapshotsAction.java  (1 usage found)
+                    27 public class GetSnapshotsAction extends ActionType<GetSnapshotsResponse> {
+            org.elasticsearch.action.admin.cluster.snapshots.restore  (1 usage found)
+                RestoreSnapshotAction.java  (1 usage found)
+                    27 public class RestoreSnapshotAction extends ActionType<RestoreSnapshotResponse> {
+            org.elasticsearch.action.admin.cluster.snapshots.status  (1 usage found)
+                SnapshotsStatusAction.java  (1 usage found)
+                    27 public class SnapshotsStatusAction extends ActionType<SnapshotsStatusResponse> {
+            org.elasticsearch.action.admin.cluster.state  (1 usage found)
+                ClusterStateAction.java  (1 usage found)
+                    24 public class ClusterStateAction extends ActionType<ClusterStateResponse> {
+            org.elasticsearch.action.admin.cluster.stats  (1 usage found)
+                ClusterStatsAction.java  (1 usage found)
+                    24 public class ClusterStatsAction extends ActionType<ClusterStatsResponse> {
+            org.elasticsearch.action.admin.cluster.storedscripts  (3 usages found)
+                DeleteStoredScriptAction.java  (1 usage found)
+                    25 public class DeleteStoredScriptAction extends ActionType<AcknowledgedResponse> {
+                GetStoredScriptAction.java  (1 usage found)
+                    24 public class GetStoredScriptAction extends ActionType<GetStoredScriptResponse> {
+                PutStoredScriptAction.java  (1 usage found)
+                    26 public class PutStoredScriptAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.cluster.tasks  (1 usage found)
+                PendingClusterTasksAction.java  (1 usage found)
+                    24 public class PendingClusterTasksAction extends ActionType<PendingClusterTasksResponse> {
+            org.elasticsearch.action.admin.indices.alias  (1 usage found)
+                IndicesAliasesAction.java  (1 usage found)
+                    25 public class IndicesAliasesAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.alias.exists  (1 usage found)
+                AliasesExistAction.java  (1 usage found)
+                    24 public class AliasesExistAction extends ActionType<AliasesExistResponse> {
+            org.elasticsearch.action.admin.indices.alias.get  (1 usage found)
+                GetAliasesAction.java  (1 usage found)
+                    24 public class GetAliasesAction extends ActionType<GetAliasesResponse> {
+            org.elasticsearch.action.admin.indices.analyze  (1 usage found)
+                AnalyzeAction.java  (1 usage found)
+                    49 public class AnalyzeAction extends ActionType<AnalyzeAction.Response> {
+            org.elasticsearch.action.admin.indices.cache.clear  (1 usage found)
+                ClearIndicesCacheAction.java  (1 usage found)
+                    24 public class ClearIndicesCacheAction extends ActionType<ClearIndicesCacheResponse> {
+            org.elasticsearch.action.admin.indices.close  (1 usage found)
+                CloseIndexAction.java  (1 usage found)
+                    24 public class CloseIndexAction extends ActionType<CloseIndexResponse> {
+            org.elasticsearch.action.admin.indices.create  (1 usage found)
+                CreateIndexAction.java  (1 usage found)
+                    24 public class CreateIndexAction extends ActionType<CreateIndexResponse> {
+            org.elasticsearch.action.admin.indices.delete  (1 usage found)
+                DeleteIndexAction.java  (1 usage found)
+                    25 public class DeleteIndexAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.exists.indices  (1 usage found)
+                IndicesExistsAction.java  (1 usage found)
+                    24 public class IndicesExistsAction extends ActionType<IndicesExistsResponse> {
+            org.elasticsearch.action.admin.indices.exists.types  (1 usage found)
+                TypesExistsAction.java  (1 usage found)
+                    23 public class TypesExistsAction extends ActionType<TypesExistsResponse> {
+            org.elasticsearch.action.admin.indices.flush  (2 usages found)
+                FlushAction.java  (1 usage found)
+                    24 public class FlushAction extends ActionType<FlushResponse> {
+                SyncedFlushAction.java  (1 usage found)
+                    25 public class SyncedFlushAction extends ActionType<SyncedFlushResponse> {
+            org.elasticsearch.action.admin.indices.forcemerge  (1 usage found)
+                ForceMergeAction.java  (1 usage found)
+                    24 public class ForceMergeAction extends ActionType<ForceMergeResponse> {
+            org.elasticsearch.action.admin.indices.get  (1 usage found)
+                GetIndexAction.java  (1 usage found)
+                    24 public class GetIndexAction extends ActionType<GetIndexResponse> {
+            org.elasticsearch.action.admin.indices.mapping.get  (2 usages found)
+                GetFieldMappingsAction.java  (1 usage found)
+                    24 public class GetFieldMappingsAction extends ActionType<GetFieldMappingsResponse> {
+                GetMappingsAction.java  (1 usage found)
+                    24 public class GetMappingsAction extends ActionType<GetMappingsResponse> {
+            org.elasticsearch.action.admin.indices.mapping.put  (1 usage found)
+                PutMappingAction.java  (1 usage found)
+                    25 public class PutMappingAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.open  (1 usage found)
+                OpenIndexAction.java  (1 usage found)
+                    24 public class OpenIndexAction extends ActionType<OpenIndexResponse> {
+            org.elasticsearch.action.admin.indices.recovery  (1 usage found)
+                RecoveryAction.java  (1 usage found)
+                    27 public class RecoveryAction extends ActionType<RecoveryResponse> {
+            org.elasticsearch.action.admin.indices.refresh  (1 usage found)
+                RefreshAction.java  (1 usage found)
+                    24 public class RefreshAction extends ActionType<RefreshResponse> {
+            org.elasticsearch.action.admin.indices.rollover  (1 usage found)
+                RolloverAction.java  (1 usage found)
+                    24 public class RolloverAction extends ActionType<RolloverResponse> {
+            org.elasticsearch.action.admin.indices.segments  (1 usage found)
+                IndicesSegmentsAction.java  (1 usage found)
+                    24 public class IndicesSegmentsAction extends ActionType<IndicesSegmentResponse> {
+            org.elasticsearch.action.admin.indices.settings.get  (1 usage found)
+                GetSettingsAction.java  (1 usage found)
+                    24 public class GetSettingsAction extends ActionType<GetSettingsResponse> {
+            org.elasticsearch.action.admin.indices.settings.put  (1 usage found)
+                UpdateSettingsAction.java  (1 usage found)
+                    25 public class UpdateSettingsAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.shards  (1 usage found)
+                IndicesShardStoresAction.java  (1 usage found)
+                    31 public class IndicesShardStoresAction extends ActionType<IndicesShardStoresResponse> {
+            org.elasticsearch.action.admin.indices.shrink  (2 usages found)
+                ResizeAction.java  (1 usage found)
+                    25 public class ResizeAction extends ActionType<ResizeResponse> {
+                ShrinkAction.java  (1 usage found)
+                    24 public class ShrinkAction extends ActionType<ResizeResponse> {
+            org.elasticsearch.action.admin.indices.stats  (1 usage found)
+                IndicesStatsAction.java  (1 usage found)
+                    24 public class IndicesStatsAction extends ActionType<IndicesStatsResponse> {
+            org.elasticsearch.action.admin.indices.template.delete  (1 usage found)
+                DeleteIndexTemplateAction.java  (1 usage found)
+                    25 public class DeleteIndexTemplateAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.template.get  (1 usage found)
+                GetIndexTemplatesAction.java  (1 usage found)
+                    23 public class GetIndexTemplatesAction extends ActionType<GetIndexTemplatesResponse> {
+            org.elasticsearch.action.admin.indices.template.put  (1 usage found)
+                PutIndexTemplateAction.java  (1 usage found)
+                    25 public class PutIndexTemplateAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.upgrade.get  (1 usage found)
+                UpgradeStatusAction.java  (1 usage found)
+                    24 public class UpgradeStatusAction extends ActionType<UpgradeStatusResponse> {
+            org.elasticsearch.action.admin.indices.upgrade.post  (2 usages found)
+                UpgradeAction.java  (1 usage found)
+                    27 public class UpgradeAction extends ActionType<UpgradeResponse> {
+                UpgradeSettingsAction.java  (1 usage found)
+                    25 public class UpgradeSettingsAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.action.admin.indices.validate.query  (1 usage found)
+                ValidateQueryAction.java  (1 usage found)
+                    24 public class ValidateQueryAction extends ActionType<ValidateQueryResponse> {
+            org.elasticsearch.action.bulk  (1 usage found)
+                BulkAction.java  (1 usage found)
+                    26 public class BulkAction extends ActionType<BulkResponse> {
+            org.elasticsearch.action.delete  (1 usage found)
+                DeleteAction.java  (1 usage found)
+                    24 public class DeleteAction extends ActionType<DeleteResponse> {
+            org.elasticsearch.action.explain  (1 usage found)
+                ExplainAction.java  (1 usage found)
+                    27 public class ExplainAction extends ActionType<ExplainResponse> {
+            org.elasticsearch.action.fieldcaps  (1 usage found)
+                FieldCapabilitiesAction.java  (1 usage found)
+                    24 public class FieldCapabilitiesAction extends ActionType<FieldCapabilitiesResponse> {
+            org.elasticsearch.action.get  (2 usages found)
+                GetAction.java  (1 usage found)
+                    24 public class GetAction extends ActionType<GetResponse> {
+                MultiGetAction.java  (1 usage found)
+                    24 public class MultiGetAction extends ActionType<MultiGetResponse> {
+            org.elasticsearch.action.index  (1 usage found)
+                IndexAction.java  (1 usage found)
+                    24 public class IndexAction extends ActionType<IndexResponse> {
+            org.elasticsearch.action.ingest  (4 usages found)
+                DeletePipelineAction.java  (1 usage found)
+                    25 public class DeletePipelineAction extends ActionType<AcknowledgedResponse> {
+                GetPipelineAction.java  (1 usage found)
+                    24 public class GetPipelineAction extends ActionType<GetPipelineResponse> {
+                PutPipelineAction.java  (1 usage found)
+                    25 public class PutPipelineAction extends ActionType<AcknowledgedResponse> {
+                SimulatePipelineAction.java  (1 usage found)
+                    24 public class SimulatePipelineAction extends ActionType<SimulatePipelineResponse> {
+            org.elasticsearch.action.main  (1 usage found)
+                MainAction.java  (1 usage found)
+                    24 public class MainAction extends ActionType<MainResponse> {
+            org.elasticsearch.action.search  (4 usages found)
+                ClearScrollAction.java  (1 usage found)
+                    24 public class ClearScrollAction extends ActionType<ClearScrollResponse> {
+                MultiSearchAction.java  (1 usage found)
+                    24 public class MultiSearchAction extends ActionType<MultiSearchResponse> {
+                SearchAction.java  (1 usage found)
+                    24 public class SearchAction extends ActionType<SearchResponse> {
+                SearchScrollAction.java  (1 usage found)
+                    24 public class SearchScrollAction extends ActionType<SearchResponse> {
+            org.elasticsearch.action.termvectors  (2 usages found)
+                MultiTermVectorsAction.java  (1 usage found)
+                    24 public class MultiTermVectorsAction extends ActionType<MultiTermVectorsResponse> {
+                TermVectorsAction.java  (1 usage found)
+                    24 public class TermVectorsAction extends ActionType<TermVectorsResponse> {
+            org.elasticsearch.action.update  (1 usage found)
+                UpdateAction.java  (1 usage found)
+                    24 public class UpdateAction extends ActionType<UpdateResponse> {
+            org.elasticsearch.index.reindex  (3 usages found)
+                DeleteByQueryAction.java  (1 usage found)
+                    24 public class DeleteByQueryAction extends ActionType<BulkByScrollResponse> {
+                ReindexAction.java  (1 usage found)
+                    24 public class ReindexAction extends ActionType<BulkByScrollResponse> {
+                UpdateByQueryAction.java  (1 usage found)
+                    24 public class UpdateByQueryAction extends ActionType<BulkByScrollResponse> {
+            org.elasticsearch.index.seqno  (3 usages found)
+                RetentionLeaseActions  (3 usages found)
+                    126 public static class Add extends ActionType<Response> {
+                    173 public static class Renew extends ActionType<Response> {
+                    213 public static class Remove extends ActionType<Response> {
+            org.elasticsearch.persistent  (4 usages found)
+                CompletionPersistentTaskAction.java  (1 usage found)
+                    49 public class CompletionPersistentTaskAction extends ActionType<PersistentTaskResponse> {
+                RemovePersistentTaskAction.java  (1 usage found)
+                    43 public class RemovePersistentTaskAction extends ActionType<PersistentTaskResponse> {
+                StartPersistentTaskAction.java  (1 usage found)
+                    50 public class StartPersistentTaskAction extends ActionType<PersistentTaskResponse> {
+                UpdatePersistentTaskStatusAction.java  (1 usage found)
+                    45 public class UpdatePersistentTaskStatusAction extends ActionType<PersistentTaskResponse> {
+        elasticsearch-7.5.2.server.test  (6 usages found)
+            org.elasticsearch.action  (2 usages found)
+                ActionModuleTests  (1 usage found)
+                    testPluginCanRegisterAction()  (1 usage found)
+                        91 class FakeAction extends ActionType<ActionResponse> {
+                ActionTests  (1 usage found)
+                    testEquals()  (1 usage found)
+                        27 class FakeAction extends ActionType<ActionResponse> {
+            org.elasticsearch.action.admin.cluster.node.tasks  (2 usages found)
+                TestTaskPlugin  (2 usages found)
+                    329 public static class TestTaskAction extends ActionType<NodesResponse> {
+                    449 public static class UnblockTestTasksAction extends ActionType<UnblockTestTasksResponse> {
+            org.elasticsearch.indices.settings  (1 usage found)
+                InternalOrPrivateSettingsPlugin  (1 usage found)
+                    65 public static class UpdateInternalOrPrivateAction extends ActionType<UpdateInternalOrPrivateAction.Response> {
+            org.elasticsearch.persistent  (1 usage found)
+                TestPersistentTasksPlugin  (1 usage found)
+                    404 public static class TestTaskAction extends ActionType<TestTasksResponse> {
+        elasticsearch-7.5.2.x-pack.plugin.ccr.main  (7 usages found)
+            org.elasticsearch.xpack.ccr.action  (1 usage found)
+                ShardChangesAction.java  (1 usage found)
+                    57 public class ShardChangesAction extends ActionType<ShardChangesAction.Response> {
+            org.elasticsearch.xpack.ccr.action.bulk  (1 usage found)
+                BulkShardOperationsAction.java  (1 usage found)
+                    10 public class BulkShardOperationsAction extends ActionType<BulkShardOperationsResponse> {
+            org.elasticsearch.xpack.ccr.action.repositories  (5 usages found)
+                ClearCcrRestoreSessionAction.java  (1 usage found)
+                    25 public class ClearCcrRestoreSessionAction extends ActionType<ClearCcrRestoreSessionAction.ClearCcrRestoreSessionResponse> {
+                DeleteInternalCcrRepositoryAction.java  (1 usage found)
+                    23 public class DeleteInternalCcrRepositoryAction extends ActionType<DeleteInternalCcrRepositoryAction.DeleteInternalCcrRepositoryResponse> {
+                GetCcrRestoreFileChunkAction.java  (1 usage found)
+                    29 public class GetCcrRestoreFileChunkAction extends ActionType<GetCcrRestoreFileChunkAction.GetCcrRestoreFileChunkResponse> {
+                PutCcrRestoreSessionAction.java  (1 usage found)
+                    33 public class PutCcrRestoreSessionAction extends ActionType<PutCcrRestoreSessionAction.PutCcrRestoreSessionResponse> {
+                PutInternalCcrRepositoryAction.java  (1 usage found)
+                    23 public class PutInternalCcrRepositoryAction extends ActionType<PutInternalCcrRepositoryAction.PutInternalCcrRepositoryResponse> {
+        elasticsearch-7.5.2.x-pack.plugin.core.main  (179 usages found)
+            org.elasticsearch.license  (7 usages found)
+                DeleteLicenseAction.java  (1 usage found)
+                    11 public class DeleteLicenseAction extends ActionType<AcknowledgedResponse> {
+                GetBasicStatusAction.java  (1 usage found)
+                    10 public class GetBasicStatusAction extends ActionType<GetBasicStatusResponse> {
+                GetLicenseAction.java  (1 usage found)
+                    10 public class GetLicenseAction extends ActionType<GetLicenseResponse> {
+                GetTrialStatusAction.java  (1 usage found)
+                    10 public class GetTrialStatusAction extends ActionType<GetTrialStatusResponse> {
+                PostStartBasicAction.java  (1 usage found)
+                    10 public class PostStartBasicAction extends ActionType<PostStartBasicResponse> {
+                PostStartTrialAction.java  (1 usage found)
+                    10 public class PostStartTrialAction extends ActionType<PostStartTrialResponse> {
+                PutLicenseAction.java  (1 usage found)
+                    11 public class PutLicenseAction extends ActionType<PutLicenseResponse> {
+            org.elasticsearch.xpack.core.action  (3 usages found)
+                ReloadAnalyzerAction.java  (1 usage found)
+                    10 public class ReloadAnalyzerAction extends ActionType<ReloadAnalyzersResponse> {
+                XPackInfoAction.java  (1 usage found)
+                    11 public class XPackInfoAction extends ActionType<XPackInfoResponse> {
+                XPackUsageAction.java  (1 usage found)
+                    10 public class XPackUsageAction extends ActionType<XPackUsageResponse> {
+            org.elasticsearch.xpack.core.analytics.action  (1 usage found)
+                AnalyticsStatsAction.java  (1 usage found)
+                    27 public class AnalyticsStatsAction extends ActionType<AnalyticsStatsAction.Response> {
+            org.elasticsearch.xpack.core.ccr.action  (12 usages found)
+                ActivateAutoFollowPatternAction.java  (1 usage found)
+                    21 public class ActivateAutoFollowPatternAction extends ActionType<AcknowledgedResponse> {
+                CcrStatsAction.java  (1 usage found)
+                    22 public class CcrStatsAction extends ActionType<CcrStatsAction.Response> {
+                DeleteAutoFollowPatternAction.java  (1 usage found)
+                    20 public class DeleteAutoFollowPatternAction extends ActionType<AcknowledgedResponse> {
+                FollowInfoAction.java  (1 usage found)
+                    25 public class FollowInfoAction extends ActionType<FollowInfoAction.Response> {
+                FollowStatsAction.java  (1 usage found)
+                    32 public class FollowStatsAction extends ActionType<FollowStatsAction.StatsResponses> {
+                ForgetFollowerAction.java  (1 usage found)
+                    22 public class ForgetFollowerAction extends ActionType<BroadcastResponse> {
+                GetAutoFollowPatternAction.java  (1 usage found)
+                    23 public class GetAutoFollowPatternAction extends ActionType<GetAutoFollowPatternAction.Response> {
+                PauseFollowAction.java  (1 usage found)
+                    19 public class PauseFollowAction extends ActionType<AcknowledgedResponse> {
+                PutAutoFollowPatternAction.java  (1 usage found)
+                    30 public class PutAutoFollowPatternAction extends ActionType<AcknowledgedResponse> {
+                PutFollowAction.java  (1 usage found)
+                    30 public final class PutFollowAction extends ActionType<PutFollowAction.Response> {
+                ResumeFollowAction.java  (1 usage found)
+                    25 public final class ResumeFollowAction extends ActionType<AcknowledgedResponse> {
+                UnfollowAction.java  (1 usage found)
+                    22 public class UnfollowAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.xpack.core.deprecation  (2 usages found)
+                DeprecationInfoAction.java  (1 usage found)
+                    44 public class DeprecationInfoAction extends ActionType<DeprecationInfoAction.Response> {
+                NodesDeprecationCheckAction.java  (1 usage found)
+                    26 public class NodesDeprecationCheckAction extends ActionType<NodesDeprecationCheckResponse> {
+            org.elasticsearch.xpack.core.enrich.action  (5 usages found)
+                DeleteEnrichPolicyAction.java  (1 usage found)
+                    18 public class DeleteEnrichPolicyAction extends ActionType<AcknowledgedResponse> {
+                EnrichStatsAction.java  (1 usage found)
+                    24 public class EnrichStatsAction extends ActionType<EnrichStatsAction.Response> {
+                ExecuteEnrichPolicyAction.java  (1 usage found)
+                    21 public class ExecuteEnrichPolicyAction extends ActionType<ExecuteEnrichPolicyAction.Response> {
+                GetEnrichPolicyAction.java  (1 usage found)
+                    27 public class GetEnrichPolicyAction extends ActionType<GetEnrichPolicyAction.Response> {
+                PutEnrichPolicyAction.java  (1 usage found)
+                    21 public class PutEnrichPolicyAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.xpack.core.frozen.action  (1 usage found)
+                FreezeIndexAction.java  (1 usage found)
+                    11 public class FreezeIndexAction extends ActionType<FreezeResponse> {
+            org.elasticsearch.xpack.core.graph.action  (1 usage found)
+                GraphExploreAction.java  (1 usage found)
+                    11 public class GraphExploreAction extends ActionType<GraphExploreResponse> {
+            org.elasticsearch.xpack.core.ilm.action  (10 usages found)
+                DeleteLifecycleAction.java  (1 usage found)
+                    21 public class DeleteLifecycleAction extends ActionType<DeleteLifecycleAction.Response> {
+                ExplainLifecycleAction.java  (1 usage found)
+                    12 public class ExplainLifecycleAction extends ActionType<ExplainLifecycleResponse> {
+                GetLifecycleAction.java  (1 usage found)
+                    26 public class GetLifecycleAction extends ActionType<GetLifecycleAction.Response> {
+                GetStatusAction.java  (1 usage found)
+                    23 public class GetStatusAction extends ActionType<GetStatusAction.Response> {
+                MoveToStepAction.java  (1 usage found)
+                    26 public class MoveToStepAction extends ActionType<MoveToStepAction.Response> {
+                PutLifecycleAction.java  (1 usage found)
+                    25 public class PutLifecycleAction extends ActionType<PutLifecycleAction.Response> {
+                RemoveIndexLifecyclePolicyAction.java  (1 usage found)
+                    27 public class RemoveIndexLifecyclePolicyAction extends ActionType<RemoveIndexLifecyclePolicyAction.Response> {
+                RetryAction.java  (1 usage found)
+                    24 public class RetryAction extends ActionType<RetryAction.Response> {
+                StartILMAction.java  (1 usage found)
+                    12 public class StartILMAction extends ActionType<AcknowledgedResponse> {
+                StopILMAction.java  (1 usage found)
+                    12 public class StopILMAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.xpack.core.ml.action  (58 usages found)
+                CloseJobAction.java  (1 usage found)
+                    30 public class CloseJobAction extends ActionType<CloseJobAction.Response> {
+                DeleteCalendarAction.java  (1 usage found)
+                    22 public class DeleteCalendarAction extends ActionType<AcknowledgedResponse> {
+                DeleteCalendarEventAction.java  (1 usage found)
+                    23 public class DeleteCalendarEventAction extends ActionType<AcknowledgedResponse> {
+                DeleteDatafeedAction.java  (1 usage found)
+                    25 public class DeleteDatafeedAction extends ActionType<AcknowledgedResponse> {
+                DeleteDataFrameAnalyticsAction.java  (1 usage found)
+                    24 public class DeleteDataFrameAnalyticsAction extends ActionType<AcknowledgedResponse> {
+                DeleteExpiredDataAction.java  (1 usage found)
+                    23 public class DeleteExpiredDataAction extends ActionType<DeleteExpiredDataAction.Response> {
+                DeleteFilterAction.java  (1 usage found)
+                    23 public class DeleteFilterAction extends ActionType<AcknowledgedResponse> {
+                DeleteForecastAction.java  (1 usage found)
+                    22 public class DeleteForecastAction extends ActionType<AcknowledgedResponse> {
+                DeleteJobAction.java  (1 usage found)
+                    26 public class DeleteJobAction extends ActionType<AcknowledgedResponse> {
+                DeleteModelSnapshotAction.java  (1 usage found)
+                    22 public class DeleteModelSnapshotAction extends ActionType<AcknowledgedResponse> {
+                EstimateMemoryUsageAction.java  (1 usage found)
+                    25 public class EstimateMemoryUsageAction extends ActionType<EstimateMemoryUsageAction.Response> {
+                EvaluateDataFrameAction.java  (1 usage found)
+                    41 public class EvaluateDataFrameAction extends ActionType<EvaluateDataFrameAction.Response> {
+                FinalizeJobExecutionAction.java  (1 usage found)
+                    19 public class FinalizeJobExecutionAction extends ActionType<AcknowledgedResponse> {
+                FindFileStructureAction.java  (1 usage found)
+                    34 public class FindFileStructureAction extends ActionType<FindFileStructureAction.Response> {
+                FlushJobAction.java  (1 usage found)
+                    28 public class FlushJobAction extends ActionType<FlushJobAction.Response> {
+                ForecastJobAction.java  (1 usage found)
+                    27 public class ForecastJobAction extends ActionType<ForecastJobAction.Response> {
+                GetBucketsAction.java  (1 usage found)
+                    31 public class GetBucketsAction extends ActionType<GetBucketsAction.Response> {
+                GetCalendarEventsAction.java  (1 usage found)
+                    32 public class GetCalendarEventsAction extends ActionType<GetCalendarEventsAction.Response> {
+                GetCalendarsAction.java  (1 usage found)
+                    31 public class GetCalendarsAction extends ActionType<GetCalendarsAction.Response> {
+                GetCategoriesAction.java  (1 usage found)
+                    32 public class GetCategoriesAction extends ActionType<GetCategoriesAction.Response> {
+                GetDatafeedsAction.java  (1 usage found)
+                    26 public class GetDatafeedsAction extends ActionType<GetDatafeedsAction.Response> {
+                GetDatafeedsStatsAction.java  (1 usage found)
+                    37 public class GetDatafeedsStatsAction extends ActionType<GetDatafeedsStatsAction.Response> {
+                GetDataFrameAnalyticsAction.java  (1 usage found)
+                    20 public class GetDataFrameAnalyticsAction extends ActionType<GetDataFrameAnalyticsAction.Response> {
+                GetDataFrameAnalyticsStatsAction.java  (1 usage found)
+                    41 public class GetDataFrameAnalyticsStatsAction extends ActionType<GetDataFrameAnalyticsStatsAction.Response> {
+                GetFiltersAction.java  (1 usage found)
+                    26 public class GetFiltersAction extends ActionType<GetFiltersAction.Response> {
+                GetInfluencersAction.java  (1 usage found)
+                    30 public class GetInfluencersAction extends ActionType<GetInfluencersAction.Response> {
+                GetJobsAction.java  (1 usage found)
+                    26 public class GetJobsAction extends ActionType<GetJobsAction.Response> {
+                GetJobsStatsAction.java  (1 usage found)
+                    46 public class GetJobsStatsAction extends ActionType<GetJobsStatsAction.Response> {
+                GetModelSnapshotsAction.java  (1 usage found)
+                    31 public class GetModelSnapshotsAction extends ActionType<GetModelSnapshotsAction.Response> {
+                GetOverallBucketsAction.java  (1 usage found)
+                    49 public class GetOverallBucketsAction extends ActionType<GetOverallBucketsAction.Response> {
+                GetRecordsAction.java  (1 usage found)
+                    30 public class GetRecordsAction extends ActionType<GetRecordsAction.Response> {
+                IsolateDatafeedAction.java  (1 usage found)
+                    38 public class IsolateDatafeedAction extends ActionType<IsolateDatafeedAction.Response> {
+                KillProcessAction.java  (1 usage found)
+                    19 public class KillProcessAction extends ActionType<KillProcessAction.Response> {
+                MlInfoAction.java  (1 usage found)
+                    24 public class MlInfoAction extends ActionType<MlInfoAction.Response> {
+                OpenJobAction.java  (1 usage found)
+                    37 public class OpenJobAction extends ActionType<AcknowledgedResponse> {
+                PersistJobAction.java  (1 usage found)
+                    19 public class PersistJobAction extends ActionType<PersistJobAction.Response> {
+                PostCalendarEventsAction.java  (1 usage found)
+                    33 public class PostCalendarEventsAction extends ActionType<PostCalendarEventsAction.Response> {
+                PostDataAction.java  (1 usage found)
+                    27 public class PostDataAction extends ActionType<PostDataAction.Response> {
+                PreviewDatafeedAction.java  (1 usage found)
+                    28 public class PreviewDatafeedAction extends ActionType<PreviewDatafeedAction.Response> {
+                PutCalendarAction.java  (1 usage found)
+                    31 public class PutCalendarAction extends ActionType<PutCalendarAction.Response> {
+                PutDatafeedAction.java  (1 usage found)
+                    25 public class PutDatafeedAction extends ActionType<PutDatafeedAction.Response> {
+                PutDataFrameAnalyticsAction.java  (1 usage found)
+                    26 public class PutDataFrameAnalyticsAction extends ActionType<PutDataFrameAnalyticsAction.Response> {
+                PutFilterAction.java  (1 usage found)
+                    28 public class PutFilterAction extends ActionType<PutFilterAction.Response> {
+                PutJobAction.java  (1 usage found)
+                    28 public class PutJobAction extends ActionType<PutJobAction.Response> {
+                RevertModelSnapshotAction.java  (1 usage found)
+                    32 public class RevertModelSnapshotAction extends ActionType<RevertModelSnapshotAction.Response> {
+                SetUpgradeModeAction.java  (1 usage found)
+                    24 public class SetUpgradeModeAction extends ActionType<AcknowledgedResponse> {
+                StartDatafeedAction.java  (1 usage found)
+                    41 public class StartDatafeedAction extends ActionType<AcknowledgedResponse> {
+                StartDataFrameAnalyticsAction.java  (1 usage found)
+                    40 public class StartDataFrameAnalyticsAction extends ActionType<AcknowledgedResponse> {
+                StopDatafeedAction.java  (1 usage found)
+                    32 public class StopDatafeedAction extends ActionType<StopDatafeedAction.Response> {
+                StopDataFrameAnalyticsAction.java  (1 usage found)
+                    37 public class StopDataFrameAnalyticsAction extends ActionType<StopDataFrameAnalyticsAction.Response> {
+                UpdateCalendarJobAction.java  (1 usage found)
+                    21 public class UpdateCalendarJobAction extends ActionType<PutCalendarAction.Response> {
+                UpdateDatafeedAction.java  (1 usage found)
+                    23 public class UpdateDatafeedAction extends ActionType<PutDatafeedAction.Response> {
+                UpdateFilterAction.java  (1 usage found)
+                    35 public class UpdateFilterAction extends ActionType<PutFilterAction.Response> {
+                UpdateJobAction.java  (1 usage found)
+                    27 public class UpdateJobAction extends ActionType<PutJobAction.Response> {
+                UpdateModelSnapshotAction.java  (1 usage found)
+                    32 public class UpdateModelSnapshotAction extends ActionType<UpdateModelSnapshotAction.Response> {
+                UpdateProcessAction.java  (1 usage found)
+                    27 public class UpdateProcessAction extends ActionType<UpdateProcessAction.Response> {
+                ValidateDetectorAction.java  (1 usage found)
+                    24 public class ValidateDetectorAction extends ActionType<AcknowledgedResponse> {
+                ValidateJobConfigAction.java  (1 usage found)
+                    25 public class ValidateJobConfigAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.xpack.core.monitoring.action  (1 usage found)
+                MonitoringBulkAction.java  (1 usage found)
+                    10 public class MonitoringBulkAction extends ActionType<MonitoringBulkResponse> {
+            org.elasticsearch.xpack.core.rollup.action  (8 usages found)
+                DeleteRollupJobAction.java  (1 usage found)
+                    32 public class DeleteRollupJobAction extends ActionType<DeleteRollupJobAction.Response> {
+                GetRollupCapsAction.java  (1 usage found)
+                    30 public class GetRollupCapsAction extends ActionType<GetRollupCapsAction.Response> {
+                GetRollupIndexCapsAction.java  (1 usage found)
+                    33 public class GetRollupIndexCapsAction extends ActionType<GetRollupIndexCapsAction.Response> {
+                GetRollupJobsAction.java  (1 usage found)
+                    37 public class GetRollupJobsAction extends ActionType<GetRollupJobsAction.Response> {
+                PutRollupJobAction.java  (1 usage found)
+                    28 public class PutRollupJobAction extends ActionType<AcknowledgedResponse> {
+                RollupSearchAction.java  (1 usage found)
+                    14 public class RollupSearchAction extends ActionType<SearchResponse> {
+                StartRollupJobAction.java  (1 usage found)
+                    27 public class StartRollupJobAction extends ActionType<StartRollupJobAction.Response> {
+                StopRollupJobAction.java  (1 usage found)
+                    31 public class StopRollupJobAction extends ActionType<StopRollupJobAction.Response> {
+            org.elasticsearch.xpack.core.security.action  (4 usages found)
+                CreateApiKeyAction.java  (1 usage found)
+                    14 public final class CreateApiKeyAction extends ActionType<CreateApiKeyResponse> {
+                DelegatePkiAuthenticationAction.java  (1 usage found)
+                    14 public class DelegatePkiAuthenticationAction extends ActionType<DelegatePkiAuthenticationResponse> {
+                GetApiKeyAction.java  (1 usage found)
+                    14 public final class GetApiKeyAction extends ActionType<GetApiKeyResponse> {
+                InvalidateApiKeyAction.java  (1 usage found)
+                    14 public final class InvalidateApiKeyAction extends ActionType<InvalidateApiKeyResponse> {
+            org.elasticsearch.xpack.core.security.action.oidc  (3 usages found)
+                OpenIdConnectAuthenticateAction.java  (1 usage found)
+                    13 public final class OpenIdConnectAuthenticateAction extends ActionType<OpenIdConnectAuthenticateResponse> {
+                OpenIdConnectLogoutAction.java  (1 usage found)
+                    10 public class OpenIdConnectLogoutAction extends ActionType<OpenIdConnectLogoutResponse> {
+                OpenIdConnectPrepareAuthenticationAction.java  (1 usage found)
+                    10 public class OpenIdConnectPrepareAuthenticationAction extends ActionType<OpenIdConnectPrepareAuthenticationResponse> {
+            org.elasticsearch.xpack.core.security.action.privilege  (4 usages found)
+                DeletePrivilegesAction.java  (1 usage found)
+                    13 public final class DeletePrivilegesAction extends ActionType<DeletePrivilegesResponse> {
+                GetBuiltinPrivilegesAction.java  (1 usage found)
+                    13 public final class GetBuiltinPrivilegesAction extends ActionType<GetBuiltinPrivilegesResponse> {
+                GetPrivilegesAction.java  (1 usage found)
+                    13 public final class GetPrivilegesAction extends ActionType<GetPrivilegesResponse> {
+                PutPrivilegesAction.java  (1 usage found)
+                    13 public final class PutPrivilegesAction extends ActionType<PutPrivilegesResponse> {
+            org.elasticsearch.xpack.core.security.action.realm  (1 usage found)
+                ClearRealmCacheAction.java  (1 usage found)
+                    10 public class ClearRealmCacheAction extends ActionType<ClearRealmCacheResponse> {
+            org.elasticsearch.xpack.core.security.action.role  (4 usages found)
+                ClearRolesCacheAction.java  (1 usage found)
+                    13 public class ClearRolesCacheAction extends ActionType<ClearRolesCacheResponse> {
+                DeleteRoleAction.java  (1 usage found)
+                    13 public class DeleteRoleAction extends ActionType<DeleteRoleResponse> {
+                GetRolesAction.java  (1 usage found)
+                    13 public class GetRolesAction extends ActionType<GetRolesResponse> {
+                PutRoleAction.java  (1 usage found)
+                    13 public class PutRoleAction extends ActionType<PutRoleResponse> {
+            org.elasticsearch.xpack.core.security.action.rolemapping  (3 usages found)
+                DeleteRoleMappingAction.java  (1 usage found)
+                    14 public class DeleteRoleMappingAction extends ActionType<DeleteRoleMappingResponse> {
+                GetRoleMappingsAction.java  (1 usage found)
+                    15 public class GetRoleMappingsAction extends ActionType<GetRoleMappingsResponse> {
+                PutRoleMappingAction.java  (1 usage found)
+                    13 public class PutRoleMappingAction extends ActionType<PutRoleMappingResponse> {
+            org.elasticsearch.xpack.core.security.action.saml  (4 usages found)
+                SamlAuthenticateAction.java  (1 usage found)
+                    13 public final class SamlAuthenticateAction extends ActionType<SamlAuthenticateResponse> {
+                SamlInvalidateSessionAction.java  (1 usage found)
+                    13 public final class SamlInvalidateSessionAction extends ActionType<SamlInvalidateSessionResponse> {
+                SamlLogoutAction.java  (1 usage found)
+                    13 public final class SamlLogoutAction extends ActionType<SamlLogoutResponse> {
+                SamlPrepareAuthenticationAction.java  (1 usage found)
+                    13 public final class SamlPrepareAuthenticationAction extends ActionType<SamlPrepareAuthenticationResponse> {
+            org.elasticsearch.xpack.core.security.action.token  (3 usages found)
+                CreateTokenAction.java  (1 usage found)
+                    13 public final class CreateTokenAction extends ActionType<CreateTokenResponse> {
+                InvalidateTokenAction.java  (1 usage found)
+                    13 public final class InvalidateTokenAction extends ActionType<InvalidateTokenResponse> {
+                RefreshTokenAction.java  (1 usage found)
+                    10 public final class RefreshTokenAction extends ActionType<CreateTokenResponse> {
+            org.elasticsearch.xpack.core.security.action.user  (8 usages found)
+                AuthenticateAction.java  (1 usage found)
+                    10 public class AuthenticateAction extends ActionType<AuthenticateResponse> {
+                ChangePasswordAction.java  (1 usage found)
+                    10 public class ChangePasswordAction extends ActionType<ChangePasswordResponse> {
+                DeleteUserAction.java  (1 usage found)
+                    13 public class DeleteUserAction extends ActionType<DeleteUserResponse> {
+                GetUserPrivilegesAction.java  (1 usage found)
+                    13 public final class GetUserPrivilegesAction extends ActionType<GetUserPrivilegesResponse> {
+                GetUsersAction.java  (1 usage found)
+                    13 public class GetUsersAction extends ActionType<GetUsersResponse> {
+                HasPrivilegesAction.java  (1 usage found)
+                    15 public class HasPrivilegesAction extends ActionType<HasPrivilegesResponse> {
+                PutUserAction.java  (1 usage found)
+                    13 public class PutUserAction extends ActionType<PutUserResponse> {
+                SetEnabledAction.java  (1 usage found)
+                    13 public class SetEnabledAction extends ActionType<SetEnabledResponse> {
+            org.elasticsearch.xpack.core.slm.action  (9 usages found)
+                DeleteSnapshotLifecycleAction.java  (1 usage found)
+                    20 public class DeleteSnapshotLifecycleAction extends ActionType<DeleteSnapshotLifecycleAction.Response> {
+                ExecuteSnapshotLifecycleAction.java  (1 usage found)
+                    26 public class ExecuteSnapshotLifecycleAction extends ActionType<ExecuteSnapshotLifecycleAction.Response> {
+                ExecuteSnapshotRetentionAction.java  (1 usage found)
+                    19 public class ExecuteSnapshotRetentionAction extends ActionType<AcknowledgedResponse> {
+                GetSLMStatusAction.java  (1 usage found)
+                    21 public class GetSLMStatusAction extends ActionType<GetSLMStatusAction.Response> {
+                GetSnapshotLifecycleAction.java  (1 usage found)
+                    25 public class GetSnapshotLifecycleAction extends ActionType<GetSnapshotLifecycleAction.Response> {
+                GetSnapshotLifecycleStatsAction.java  (1 usage found)
+                    28 public class GetSnapshotLifecycleStatsAction extends ActionType<GetSnapshotLifecycleStatsAction.Response> {
+                PutSnapshotLifecycleAction.java  (1 usage found)
+                    24 public class PutSnapshotLifecycleAction extends ActionType<PutSnapshotLifecycleAction.Response> {
+                StartSLMAction.java  (1 usage found)
+                    17 public class StartSLMAction extends ActionType<AcknowledgedResponse> {
+                StopSLMAction.java  (1 usage found)
+                    17 public class StopSLMAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.xpack.core.ssl.action  (1 usage found)
+                GetCertificateInfoAction.java  (1 usage found)
+                    28 public class GetCertificateInfoAction extends ActionType<GetCertificateInfoAction.Response> {
+            org.elasticsearch.xpack.core.transform.action  (8 usages found)
+                DeleteTransformAction.java  (1 usage found)
+                    21 public class DeleteTransformAction extends ActionType<AcknowledgedResponse> {
+                GetTransformAction.java  (1 usage found)
+                    31 public class GetTransformAction extends ActionType<GetTransformAction.Response> {
+                GetTransformStatsAction.java  (1 usage found)
+                    37 public class GetTransformStatsAction extends ActionType<GetTransformStatsAction.Response> {
+                PreviewTransformAction.java  (1 usage found)
+                    39 public class PreviewTransformAction extends ActionType<PreviewTransformAction.Response> {
+                PutTransformAction.java  (1 usage found)
+                    31 public class PutTransformAction extends ActionType<AcknowledgedResponse> {
+                StartTransformAction.java  (1 usage found)
+                    25 public class StartTransformAction extends ActionType<StartTransformAction.Response> {
+                StopTransformAction.java  (1 usage found)
+                    35 public class StopTransformAction extends ActionType<StopTransformAction.Response> {
+                UpdateTransformAction.java  (1 usage found)
+                    31 public class UpdateTransformAction extends ActionType<UpdateTransformAction.Response> {
+            org.elasticsearch.xpack.core.transform.action.compat  (8 usages found)
+                DeleteTransformActionDeprecated.java  (1 usage found)
+                    12 public class DeleteTransformActionDeprecated extends ActionType<AcknowledgedResponse> {
+                GetTransformActionDeprecated.java  (1 usage found)
+                    12 public class GetTransformActionDeprecated extends ActionType<GetTransformAction.Response> {
+                GetTransformStatsActionDeprecated.java  (1 usage found)
+                    12 public class GetTransformStatsActionDeprecated extends ActionType<GetTransformStatsAction.Response> {
+                PreviewTransformActionDeprecated.java  (1 usage found)
+                    12 public class PreviewTransformActionDeprecated extends ActionType<PreviewTransformAction.Response> {
+                PutTransformActionDeprecated.java  (1 usage found)
+                    12 public class PutTransformActionDeprecated extends ActionType<AcknowledgedResponse> {
+                StartTransformActionDeprecated.java  (1 usage found)
+                    12 public class StartTransformActionDeprecated  extends ActionType<StartTransformAction.Response> {
+                StopTransformActionDeprecated.java  (1 usage found)
+                    12 public class StopTransformActionDeprecated extends ActionType<StopTransformAction.Response> {
+                UpdateTransformActionDeprecated.java  (1 usage found)
+                    13 public class UpdateTransformActionDeprecated extends ActionType<UpdateTransformAction.Response> {
+            org.elasticsearch.xpack.core.upgrade.actions  (2 usages found)
+                IndexUpgradeAction.java  (1 usage found)
+                    29 public class IndexUpgradeAction extends ActionType<BulkByScrollResponse> {
+                IndexUpgradeInfoAction.java  (1 usage found)
+                    15 public class IndexUpgradeInfoAction extends ActionType<IndexUpgradeInfoResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.ack  (1 usage found)
+                AckWatchAction.java  (1 usage found)
+                    13 public class AckWatchAction extends ActionType<AckWatchResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.activate  (1 usage found)
+                ActivateWatchAction.java  (1 usage found)
+                    13 public class ActivateWatchAction extends ActionType<ActivateWatchResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.delete  (1 usage found)
+                DeleteWatchAction.java  (1 usage found)
+                    14 public class DeleteWatchAction extends ActionType<DeleteWatchResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.execute  (1 usage found)
+                ExecuteWatchAction.java  (1 usage found)
+                    14 public class ExecuteWatchAction extends ActionType<ExecuteWatchResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.get  (1 usage found)
+                GetWatchAction.java  (1 usage found)
+                    13 public class GetWatchAction extends ActionType<GetWatchResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.put  (1 usage found)
+                PutWatchAction.java  (1 usage found)
+                    14 public class PutWatchAction extends ActionType<PutWatchResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.service  (1 usage found)
+                WatcherServiceAction.java  (1 usage found)
+                    12 public class WatcherServiceAction extends ActionType<AcknowledgedResponse> {
+            org.elasticsearch.xpack.core.watcher.transport.actions.stats  (1 usage found)
+                WatcherStatsAction.java  (1 usage found)
+                    13 public class WatcherStatsAction extends ActionType<WatcherStatsResponse> {
+        elasticsearch-7.5.2.x-pack.plugin.enrich.main  (3 usages found)
+            org.elasticsearch.xpack.enrich.action  (3 usages found)
+                EnrichCoordinatorProxyAction.java  (1 usage found)
+                    45 public class EnrichCoordinatorProxyAction extends ActionType<SearchResponse> {
+                EnrichCoordinatorStatsAction.java  (1 usage found)
+                    35 public class EnrichCoordinatorStatsAction extends ActionType<EnrichCoordinatorStatsAction.Response> {
+                EnrichShardMultiSearchAction.java  (1 usage found)
+                    91 public class EnrichShardMultiSearchAction extends ActionType<MultiSearchResponse> {
+        elasticsearch-7.5.2.x-pack.plugin.sql.main  (1 usage found)
+            org.elasticsearch.xpack.sql.plugin  (1 usage found)
+                SqlStatsAction.java  (1 usage found)
+                    11 public class SqlStatsAction extends ActionType<SqlStatsResponse> {
+        elasticsearch-7.5.2.x-pack.plugin.sql.sql-action.main  (3 usages found)
+            org.elasticsearch.xpack.sql.action  (3 usages found)
+                SqlClearCursorAction.java  (1 usage found)
+                    10 public class SqlClearCursorAction extends ActionType<SqlClearCursorResponse> {
+                SqlQueryAction.java  (1 usage found)
+                    10 public class SqlQueryAction extends ActionType<SqlQueryResponse> {
+                SqlTranslateAction.java  (1 usage found)
+                    13 public class SqlTranslateAction extends ActionType<SqlTranslateResponse> {

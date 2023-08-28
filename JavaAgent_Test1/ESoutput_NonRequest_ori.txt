@@ -1,0 +1,361 @@
+Premain Start!
+Premain End!
+[2023-07-25T20:52:50,741][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[Windows-SSD (C:)]], net usable_space [36.9gb], net total_space [475.6gb], types [NTFS]
+[2023-07-25T20:52:50,751][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [4gb], compressed ordinary object pointers [true]
+[2023-07-25T20:52:50,853][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [0I4hT5tUQQ-mMNt5PfwolA], cluster name [elasticsearch]
+[2023-07-25T20:52:50,854][INFO ][o.e.n.Node               ] [node-1] version[7.5.2], pid[25404], build[unknown/unknown/unknown/unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12.0.2/12.0.2+10]
+[2023-07-25T20:52:50,854][INFO ][o.e.n.Node               ] [node-1] JVM home [C:\Program Files\Java\jdk1.8.0_351]
+[2023-07-25T20:52:50,855][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.path.conf=C:\elasticsearch\elasticsearch-7.5.2-faxing\elasticsearch-7.5.2\config, -Des.path.home=C:\elasticsearch\elasticsearch-7.5.2-faxing\elasticsearch-7.5.2, -Dlog4j2.disable.jmx=true, -Xmx4g, -Xms4g, -javaagent:C:\Users\22071\Desktop\javacode\JavaAgent_Test1\out\artifacts\JavaAgent_Test1_jar\JavaAgent_Test1.jar, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar=65006:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin, -Dfile.encoding=UTF-8]
+Agentmain Start!
+Agentmain End!
+Transforming: org.elasticsearch.xpack.core.action.XPackInfoAction
+Transforming: org.elasticsearch.xpack.core.action.XPackUsageAction
+Transforming: org.elasticsearch.xpack.core.action.ReloadAnalyzerAction
+Transforming: org.elasticsearch.license.PutLicenseAction
+Transforming: org.elasticsearch.license.GetLicenseAction
+Transforming: org.elasticsearch.license.DeleteLicenseAction
+Transforming: org.elasticsearch.license.PostStartTrialAction
+Transforming: org.elasticsearch.license.GetTrialStatusAction
+Transforming: org.elasticsearch.license.PostStartBasicAction
+Transforming: org.elasticsearch.license.GetBasicStatusAction
+Transforming: org.elasticsearch.index.rankeval.RankEvalAction
+Transforming: org.elasticsearch.index.reindex.ReindexAction
+Transforming: org.elasticsearch.index.reindex.UpdateByQueryAction
+Transforming: org.elasticsearch.index.reindex.DeleteByQueryAction
+Transforming: org.elasticsearch.index.reindex.RethrottleAction
+Transforming: org.elasticsearch.xpack.core.security.action.realm.ClearRealmCacheAction
+Transforming: org.elasticsearch.xpack.core.security.action.role.ClearRolesCacheAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.GetUsersAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.PutUserAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.DeleteUserAction
+Transforming: org.elasticsearch.xpack.core.security.action.role.GetRolesAction
+Transforming: org.elasticsearch.xpack.core.security.action.role.PutRoleAction
+Transforming: org.elasticsearch.xpack.core.security.action.role.DeleteRoleAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.ChangePasswordAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.AuthenticateAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.SetEnabledAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.HasPrivilegesAction
+Transforming: org.elasticsearch.xpack.core.security.action.user.GetUserPrivilegesAction
+Transforming: org.elasticsearch.xpack.core.security.action.rolemapping.GetRoleMappingsAction
+Transforming: org.elasticsearch.xpack.core.security.action.rolemapping.PutRoleMappingAction
+Transforming: org.elasticsearch.xpack.core.security.action.rolemapping.DeleteRoleMappingAction
+Transforming: org.elasticsearch.xpack.core.security.action.token.CreateTokenAction
+Transforming: org.elasticsearch.xpack.core.security.action.token.InvalidateTokenAction
+Transforming: org.elasticsearch.xpack.core.ssl.action.GetCertificateInfoAction
+Transforming: org.elasticsearch.xpack.core.security.action.token.RefreshTokenAction
+Transforming: org.elasticsearch.xpack.core.security.action.saml.SamlPrepareAuthenticationAction
+Transforming: org.elasticsearch.xpack.core.security.action.saml.SamlAuthenticateAction
+Transforming: org.elasticsearch.xpack.core.security.action.saml.SamlLogoutAction
+Transforming: org.elasticsearch.xpack.core.security.action.saml.SamlInvalidateSessionAction
+Transforming: org.elasticsearch.xpack.core.security.action.oidc.OpenIdConnectPrepareAuthenticationAction
+Transforming: org.elasticsearch.xpack.core.security.action.oidc.OpenIdConnectAuthenticateAction
+Transforming: org.elasticsearch.xpack.core.security.action.oidc.OpenIdConnectLogoutAction
+Transforming: org.elasticsearch.xpack.core.security.action.privilege.GetBuiltinPrivilegesAction
+Transforming: org.elasticsearch.xpack.core.security.action.privilege.GetPrivilegesAction
+Transforming: org.elasticsearch.xpack.core.security.action.privilege.PutPrivilegesAction
+Transforming: org.elasticsearch.xpack.core.security.action.privilege.DeletePrivilegesAction
+Transforming: org.elasticsearch.xpack.core.security.action.CreateApiKeyAction
+Transforming: org.elasticsearch.xpack.core.security.action.InvalidateApiKeyAction
+Transforming: org.elasticsearch.xpack.core.security.action.GetApiKeyAction
+Transforming: org.elasticsearch.xpack.core.security.action.DelegatePkiAuthenticationAction
+Transforming: org.elasticsearch.xpack.core.monitoring.action.MonitoringBulkAction
+Transforming: org.elasticsearch.painless.action.PainlessExecuteAction
+Transforming: org.elasticsearch.painless.action.PainlessContextAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.put.PutWatchAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.delete.DeleteWatchAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.get.GetWatchAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.stats.WatcherStatsAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.ack.AckWatchAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.activate.ActivateWatchAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.service.WatcherServiceAction
+Transforming: org.elasticsearch.xpack.core.watcher.transport.actions.execute.ExecuteWatchAction
+Transforming: org.elasticsearch.xpack.core.analytics.action.AnalyticsStatsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetJobsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetJobsStatsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.MlInfoAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PutJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.UpdateJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.OpenJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetFiltersAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PutFilterAction
+Transforming: org.elasticsearch.xpack.core.ml.action.UpdateFilterAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteFilterAction
+Transforming: org.elasticsearch.xpack.core.ml.action.KillProcessAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetBucketsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetInfluencersAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetOverallBucketsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetRecordsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PostDataAction
+Transforming: org.elasticsearch.xpack.core.ml.action.CloseJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.FinalizeJobExecutionAction
+Transforming: org.elasticsearch.xpack.core.ml.action.FlushJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.ValidateDetectorAction
+Transforming: org.elasticsearch.xpack.core.ml.action.ValidateJobConfigAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetCategoriesAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetModelSnapshotsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.RevertModelSnapshotAction
+Transforming: org.elasticsearch.xpack.core.ml.action.UpdateModelSnapshotAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetDatafeedsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetDatafeedsStatsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PutDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.UpdateDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PreviewDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.StartDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.StopDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.IsolateDatafeedAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteModelSnapshotAction
+Transforming: org.elasticsearch.xpack.core.ml.action.UpdateProcessAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteExpiredDataAction
+Transforming: org.elasticsearch.xpack.core.ml.action.ForecastJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteForecastAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetCalendarsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PutCalendarAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteCalendarAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteCalendarEventAction
+Transforming: org.elasticsearch.xpack.core.ml.action.UpdateCalendarJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetCalendarEventsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PostCalendarEventsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PersistJobAction
+Transforming: org.elasticsearch.xpack.core.ml.action.FindFileStructureAction
+Transforming: org.elasticsearch.xpack.core.ml.action.SetUpgradeModeAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetDataFrameAnalyticsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.GetDataFrameAnalyticsStatsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.PutDataFrameAnalyticsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.DeleteDataFrameAnalyticsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.StartDataFrameAnalyticsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.StopDataFrameAnalyticsAction
+Transforming: org.elasticsearch.xpack.core.ml.action.EvaluateDataFrameAction
+Transforming: org.elasticsearch.xpack.core.ml.action.EstimateMemoryUsageAction
+Transforming: org.elasticsearch.script.mustache.SearchTemplateAction
+Transforming: org.elasticsearch.script.mustache.MultiSearchTemplateAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.PutLifecycleAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.GetLifecycleAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.DeleteLifecycleAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.ExplainLifecycleAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.RemoveIndexLifecyclePolicyAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.MoveToStepAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.RetryAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.StartILMAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.StopILMAction
+Transforming: org.elasticsearch.xpack.core.ilm.action.GetStatusAction
+Transforming: org.elasticsearch.xpack.core.slm.action.PutSnapshotLifecycleAction
+Transforming: org.elasticsearch.xpack.core.slm.action.DeleteSnapshotLifecycleAction
+Transforming: org.elasticsearch.xpack.core.slm.action.GetSnapshotLifecycleAction
+Transforming: org.elasticsearch.xpack.core.slm.action.ExecuteSnapshotLifecycleAction
+Transforming: org.elasticsearch.xpack.core.slm.action.GetSnapshotLifecycleStatsAction
+Transforming: org.elasticsearch.xpack.core.slm.action.ExecuteSnapshotRetentionAction
+Transforming: org.elasticsearch.xpack.core.slm.action.StartSLMAction
+Transforming: org.elasticsearch.xpack.core.slm.action.StopSLMAction
+Transforming: org.elasticsearch.xpack.core.slm.action.GetSLMStatusAction
+Transforming: org.elasticsearch.xpack.core.deprecation.DeprecationInfoAction
+Transforming: org.elasticsearch.xpack.core.deprecation.NodesDeprecationCheckAction
+Transforming: org.elasticsearch.ingest.common.GrokProcessorGetAction
+Transforming: org.elasticsearch.xpack.core.frozen.action.FreezeIndexAction
+Transforming: org.elasticsearch.xpack.ccr.action.bulk.BulkShardOperationsAction
+Transforming: org.elasticsearch.xpack.ccr.action.ShardChangesAction
+Transforming: org.elasticsearch.xpack.ccr.action.repositories.PutInternalCcrRepositoryAction
+Transforming: org.elasticsearch.xpack.ccr.action.repositories.DeleteInternalCcrRepositoryAction
+Transforming: org.elasticsearch.xpack.ccr.action.repositories.PutCcrRestoreSessionAction
+Transforming: org.elasticsearch.xpack.ccr.action.repositories.ClearCcrRestoreSessionAction
+Transforming: org.elasticsearch.xpack.ccr.action.repositories.GetCcrRestoreFileChunkAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.FollowStatsAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.CcrStatsAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.FollowInfoAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.PutFollowAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.ResumeFollowAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.PauseFollowAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.UnfollowAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.DeleteAutoFollowPatternAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.PutAutoFollowPatternAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.GetAutoFollowPatternAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.ActivateAutoFollowPatternAction
+Transforming: org.elasticsearch.xpack.core.ccr.action.ForgetFollowerAction
+Transforming: org.elasticsearch.xpack.core.graph.action.GraphExploreAction
+Transforming: org.elasticsearch.xpack.sql.action.SqlQueryAction
+Transforming: org.elasticsearch.xpack.sql.action.SqlTranslateAction
+Transforming: org.elasticsearch.xpack.sql.action.SqlClearCursorAction
+Transforming: org.elasticsearch.xpack.sql.plugin.SqlStatsAction
+Transforming: org.elasticsearch.xpack.core.enrich.action.GetEnrichPolicyAction
+Transforming: org.elasticsearch.xpack.core.enrich.action.DeleteEnrichPolicyAction
+Transforming: org.elasticsearch.xpack.core.enrich.action.PutEnrichPolicyAction
+Transforming: org.elasticsearch.xpack.core.enrich.action.ExecuteEnrichPolicyAction
+Transforming: org.elasticsearch.xpack.core.enrich.action.EnrichStatsAction
+Transforming: org.elasticsearch.xpack.enrich.action.EnrichCoordinatorProxyAction
+Transforming: org.elasticsearch.xpack.enrich.action.EnrichShardMultiSearchAction
+Transforming: org.elasticsearch.xpack.enrich.action.EnrichCoordinatorStatsAction
+Transforming: org.elasticsearch.xpack.core.transform.action.PutTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.StartTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.StopTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.DeleteTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.GetTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.GetTransformStatsAction
+Transforming: org.elasticsearch.xpack.core.transform.action.PreviewTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.UpdateTransformAction
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.PutTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.StartTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.StopTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.DeleteTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.GetTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.GetTransformStatsActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.PreviewTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.transform.action.compat.UpdateTransformActionDeprecated
+Transforming: org.elasticsearch.xpack.core.rollup.action.RollupSearchAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.PutRollupJobAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.StartRollupJobAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.StopRollupJobAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.DeleteRollupJobAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.GetRollupJobsAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.GetRollupCapsAction
+Transforming: org.elasticsearch.xpack.core.rollup.action.GetRollupIndexCapsAction
+[2023-07-25T20:53:19,786][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2023-07-25T20:53:19,786][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [analysis-common]
+[2023-07-25T20:53:19,786][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [flattened]
+[2023-07-25T20:53:19,786][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [frozen-indices]
+[2023-07-25T20:53:19,787][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2023-07-25T20:53:19,787][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-geoip]
+[2023-07-25T20:53:19,787][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-user-agent]
+[2023-07-25T20:53:19,787][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2023-07-25T20:53:19,787][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2023-07-25T20:53:19,787][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2023-07-25T20:53:19,788][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-extras]
+[2023-07-25T20:53:19,788][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2023-07-25T20:53:19,788][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2023-07-25T20:53:19,788][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [rank-eval]
+[2023-07-25T20:53:19,788][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2023-07-25T20:53:19,788][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-url]
+[2023-07-25T20:53:19,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [search-business-rules]
+[2023-07-25T20:53:19,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [spatial]
+[2023-07-25T20:53:19,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transform]
+[2023-07-25T20:53:19,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2023-07-25T20:53:19,789][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [vectors]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-analytics]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ccr]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-core]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-deprecation]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-enrich]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-graph]
+[2023-07-25T20:53:19,790][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ilm]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-logstash]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ml]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-monitoring]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-rollup]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-security]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-sql]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-voting-only-node]
+[2023-07-25T20:53:19,791][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-watcher]
+[2023-07-25T20:53:19,792][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+Transforming: org.elasticsearch.action.index.IndexAction
+[2023-07-25T20:53:20,878][INFO ][i.n.u.i.PlatformDependent] [node-1] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+Transforming: org.elasticsearch.action.get.GetAction
+Transforming: org.elasticsearch.action.update.UpdateAction
+Transforming: org.elasticsearch.action.delete.DeleteAction
+Transforming: org.elasticsearch.action.search.SearchAction
+Transforming: org.elasticsearch.action.bulk.BulkAction
+Transforming: org.elasticsearch.action.get.MultiGetAction
+Transforming: org.elasticsearch.action.termvectors.MultiTermVectorsAction
+Transforming: org.elasticsearch.action.search.ClearScrollAction
+Transforming: org.elasticsearch.action.explain.ExplainAction
+Transforming: org.elasticsearch.action.search.SearchScrollAction
+Transforming: org.elasticsearch.action.termvectors.TermVectorsAction
+Transforming: org.elasticsearch.action.search.MultiSearchAction
+Transforming: org.elasticsearch.action.fieldcaps.FieldCapabilitiesAction
+Transforming: org.elasticsearch.action.admin.cluster.state.ClusterStateAction
+Transforming: org.elasticsearch.action.admin.cluster.repositories.get.GetRepositoriesAction
+Transforming: org.elasticsearch.action.admin.cluster.node.tasks.get.GetTaskAction
+Transforming: org.elasticsearch.action.admin.cluster.reroute.ClusterRerouteAction
+Transforming: org.elasticsearch.action.admin.cluster.stats.ClusterStatsAction
+Transforming: org.elasticsearch.action.admin.cluster.node.stats.NodesStatsAction
+Transforming: org.elasticsearch.action.ingest.GetPipelineAction
+Transforming: org.elasticsearch.action.admin.cluster.snapshots.get.GetSnapshotsAction
+Transforming: org.elasticsearch.action.admin.cluster.snapshots.create.CreateSnapshotAction
+Transforming: org.elasticsearch.action.ingest.PutPipelineAction
+Transforming: org.elasticsearch.action.admin.cluster.snapshots.delete.DeleteSnapshotAction
+Transforming: org.elasticsearch.action.admin.cluster.tasks.PendingClusterTasksAction
+Transforming: org.elasticsearch.action.admin.cluster.repositories.cleanup.CleanupRepositoryAction
+Transforming: org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsAction
+Transforming: org.elasticsearch.action.admin.cluster.health.ClusterHealthAction
+Transforming: org.elasticsearch.action.admin.cluster.node.hotthreads.NodesHotThreadsAction
+Transforming: org.elasticsearch.action.admin.cluster.node.tasks.list.ListTasksAction
+Transforming: org.elasticsearch.action.admin.cluster.node.info.NodesInfoAction
+Transforming: org.elasticsearch.action.admin.cluster.node.usage.NodesUsageAction
+Transforming: org.elasticsearch.action.admin.cluster.node.tasks.cancel.CancelTasksAction
+Transforming: org.elasticsearch.action.admin.cluster.repositories.put.PutRepositoryAction
+Transforming: org.elasticsearch.action.admin.cluster.repositories.delete.DeleteRepositoryAction
+Transforming: org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsAction
+Transforming: org.elasticsearch.action.admin.cluster.repositories.verify.VerifyRepositoryAction
+Transforming: org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotsStatusAction
+Transforming: org.elasticsearch.action.ingest.SimulatePipelineAction
+Transforming: org.elasticsearch.action.admin.cluster.snapshots.restore.RestoreSnapshotAction
+Transforming: org.elasticsearch.action.ingest.DeletePipelineAction
+Transforming: org.elasticsearch.action.admin.cluster.storedscripts.PutStoredScriptAction
+Transforming: org.elasticsearch.action.admin.cluster.storedscripts.DeleteStoredScriptAction
+Transforming: org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainAction
+Transforming: org.elasticsearch.action.admin.cluster.storedscripts.GetStoredScriptAction
+Transforming: org.elasticsearch.action.admin.indices.delete.DeleteIndexAction
+Transforming: org.elasticsearch.action.admin.indices.flush.FlushAction
+Transforming: org.elasticsearch.action.admin.indices.close.CloseIndexAction
+Transforming: org.elasticsearch.action.admin.indices.open.OpenIndexAction
+Transforming: org.elasticsearch.action.admin.indices.create.CreateIndexAction
+Transforming: org.elasticsearch.action.admin.indices.get.GetIndexAction
+Transforming: org.elasticsearch.action.admin.indices.segments.IndicesSegmentsAction
+Transforming: org.elasticsearch.action.admin.indices.alias.IndicesAliasesAction
+Transforming: org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsAction
+Transforming: org.elasticsearch.action.admin.indices.cache.clear.ClearIndicesCacheAction
+Transforming: org.elasticsearch.action.admin.indices.refresh.RefreshAction
+Transforming: org.elasticsearch.action.admin.indices.mapping.put.PutMappingAction
+Transforming: org.elasticsearch.action.admin.indices.settings.get.GetSettingsAction
+Transforming: org.elasticsearch.action.admin.indices.stats.IndicesStatsAction
+Transforming: org.elasticsearch.action.admin.indices.upgrade.post.UpgradeAction
+Transforming: org.elasticsearch.action.admin.indices.mapping.get.GetMappingsAction
+Transforming: org.elasticsearch.action.admin.indices.forcemerge.ForceMergeAction
+Transforming: org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateAction
+Transforming: org.elasticsearch.action.admin.indices.template.get.GetIndexTemplatesAction
+Transforming: org.elasticsearch.action.admin.indices.analyze.AnalyzeAction
+Transforming: org.elasticsearch.action.admin.indices.recovery.RecoveryAction
+Transforming: org.elasticsearch.action.admin.indices.exists.types.TypesExistsAction
+Transforming: org.elasticsearch.action.admin.indices.shards.IndicesShardStoresAction
+Transforming: org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsAction
+Transforming: org.elasticsearch.action.admin.indices.flush.SyncedFlushAction
+Transforming: org.elasticsearch.action.admin.indices.upgrade.get.UpgradeStatusAction
+Transforming: org.elasticsearch.action.admin.indices.settings.put.UpdateSettingsAction
+Transforming: org.elasticsearch.action.admin.indices.template.delete.DeleteIndexTemplateAction
+Transforming: org.elasticsearch.action.admin.indices.alias.exists.AliasesExistAction
+Transforming: org.elasticsearch.action.admin.indices.validate.query.ValidateQueryAction
+Transforming: org.elasticsearch.action.admin.indices.shrink.ResizeAction
+Transforming: org.elasticsearch.action.admin.indices.rollover.RolloverAction
+Transforming: org.elasticsearch.action.admin.indices.alias.get.GetAliasesAction
+[2023-07-25T20:53:27,154][INFO ][o.e.x.s.a.s.FileRolesStore] [node-1] parsed [0] roles from file [C:\elasticsearch\elasticsearch-7.5.2-faxing\elasticsearch-7.5.2\config\roles.yml]
+[2023-07-25T20:53:28,357][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [node-1] [controller/11320] [Main.cc@110] controller (64 bit): Version 7.5.2 (Build 68f6981dfb8e2d) Copyright (c) 2020 Elasticsearch BV
+Transforming: org.elasticsearch.persistent.CompletionPersistentTaskAction
+Transforming: org.elasticsearch.action.main.MainAction
+Transforming: org.elasticsearch.action.admin.cluster.remote.RemoteInfoAction
+Transforming: org.elasticsearch.action.admin.cluster.configuration.AddVotingConfigExclusionsAction
+Transforming: org.elasticsearch.action.admin.cluster.configuration.ClearVotingConfigExclusionsAction
+Transforming: org.elasticsearch.action.admin.indices.upgrade.post.UpgradeSettingsAction
+Transforming: org.elasticsearch.action.admin.cluster.node.reload.NodesReloadSecureSettingsAction
+Transforming: org.elasticsearch.persistent.StartPersistentTaskAction
+Transforming: org.elasticsearch.persistent.UpdatePersistentTaskStatusAction
+Transforming: org.elasticsearch.persistent.RemovePersistentTaskAction
+Transforming: org.elasticsearch.index.seqno.RetentionLeaseActions$Add
+Transforming: org.elasticsearch.index.seqno.RetentionLeaseActions$Renew
+Transforming: org.elasticsearch.index.seqno.RetentionLeaseActions$Remove
+[2023-07-25T20:53:30,182][DEBUG][o.e.a.ActionModule       ] [node-1] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2023-07-25T20:53:30,287][INFO ][i.n.u.i.PlatformDependent] [node-1] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2023-07-25T20:53:30,556][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen] and seed hosts providers [settings]
+[2023-07-25T20:53:32,603][INFO ][o.e.n.Node               ] [node-1] initialized
+[2023-07-25T20:53:32,604][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2023-07-25T20:53:34,077][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2023-07-25T20:53:34,386][WARN ][o.e.b.BootstrapChecks    ] [node-1] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2023-07-25T20:53:34,389][INFO ][o.e.c.c.Coordinator      ] [node-1] cluster UUID [O3b1wiP6Qn6vx7lCOSac0g]
+[2023-07-25T20:53:34,430][INFO ][o.e.c.c.ClusterBootstrapService] [node-1] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2023-07-25T20:53:34,578][INFO ][o.e.c.s.MasterService    ] [node-1] elected-as-master ([1] nodes joined)[{node-1}{0I4hT5tUQQ-mMNt5PfwolA}{7xpUJ18HSrKVYQcyruhoJA}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=16969424896, xpack.installed=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 13, version: 73, delta: master node changed {previous [], current [{node-1}{0I4hT5tUQQ-mMNt5PfwolA}{7xpUJ18HSrKVYQcyruhoJA}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=16969424896, xpack.installed=true, ml.max_open_jobs=20}]}
+[2023-07-25T20:53:34,744][INFO ][o.e.c.s.ClusterApplierService] [node-1] master node changed {previous [], current [{node-1}{0I4hT5tUQQ-mMNt5PfwolA}{7xpUJ18HSrKVYQcyruhoJA}{127.0.0.1}{127.0.0.1:9300}{dilm}{ml.machine_memory=16969424896, xpack.installed=true, ml.max_open_jobs=20}]}, term: 13, version: 73, reason: Publication{term=13, version=73}
+[2023-07-25T20:53:35,394][INFO ][o.e.l.LicenseService     ] [node-1] license [5cc958c2-8d77-42f0-813c-f8cb5590f144] mode [basic] - valid
+[2023-07-25T20:53:35,395][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [node-1] Active license is now [BASIC]; Security is disabled
+[2023-07-25T20:53:35,416][INFO ][o.e.g.GatewayService     ] [node-1] recovered [8] indices into cluster_state
+[2023-07-25T20:53:35,601][INFO ][o.e.h.AbstractHttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2023-07-25T20:53:35,602][INFO ][o.e.n.Node               ] [node-1] started
+[2023-07-25T20:53:36,632][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[y][0]]]).
+[2023-07-25T20:53:42,422][INFO ][o.e.n.Node               ] [node-1] stopping ...
